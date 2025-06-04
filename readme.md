@@ -212,3 +212,44 @@ Standard classroom project structure:
 - `main.js` - All JavaScript functionality (referenced automatically in HTML)
 
 This structure helps students understand the separation of concerns while keeping projects simple and self-contained.
+
+## Student Exploration Issues
+
+This repository includes 15 GitHub Issues designed to help students explore callback hell problems and practice implementing solutions. The issues are organized in three categories:
+
+### Analysis Issues (Explore and Document Problems)
+Students analyze the existing callback hell code and document specific problems:
+
+- **Issue #1: Analyze the Pyramid Structure** - Document how code indentation creates unreadable "pyramid of doom"
+- **Issue #2: Map the Error Handling Maze** - Find all error handlers and explain why duplication is problematic  
+- **Issue #3: Trace Variable Scope Dependencies** - Follow variables through closure chains and explain debugging challenges
+- **Issue #4: Document the Sequential Bottleneck** - Analyze timing dependencies and their impact on user experience
+- **Issue #5: Maintenance Horror Stories** - Explore realistic feature requests and document implementation complexity
+
+### Refactoring Issues (Improve Existing Code)
+Students practice converting callback hell to modern async patterns:
+
+- **Issue #6: Flatten the Pyramid** - Refactor nested callbacks using Promises to reduce indentation
+- **Issue #7: Centralize Error Handling** - Create unified error handling system replacing scattered handlers
+- **Issue #8: Extract Reusable Functions** - Break monolithic code into testable, reusable functions
+- **Issue #9: Add Progress Tracking** - Enhance progress system to handle failures and provide better feedback
+- **Issue #10: Modern Async Conversion** - Convert entire implementation to clean async/await syntax
+
+### Enhancement Issues (Add New Features)
+Students implement advanced features to experience how callback complexity affects real development:
+
+- **Issue #11: Add Retry Logic** - Implement automatic retry functionality (shows how hard this is in callback hell)
+- **Issue #12: User Preferences Feature** - Add user preferences system requiring another API call
+- **Issue #13: Performance Optimization** - Make API calls run in parallel where possible
+- **Issue #14: Loading State Improvements** - Add skeleton screens, estimated time remaining, and cancel functionality
+- **Issue #15: Error Recovery** - Allow users to retry individual failed sections without restarting
+
+### Using the Issues
+
+Each issue is provided as a separate markdown file that can be used as a GitHub Issue. Students should:
+
+1. **Start with Analysis Issues** to understand the problems
+2. **Progress to Refactoring Issues** to practice solutions  
+3. **Tackle Enhancement Issues** to experience real-world complexity
+
+The issues are designed to demonstrate why modern async patterns (Promises, async/await) were developed and how they solve the fundamental problems of callback hell.
