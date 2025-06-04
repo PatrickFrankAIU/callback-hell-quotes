@@ -1,3 +1,7 @@
+![image](https://github.com/PatrickFrankAIU/GradeManagerProject/assets/134087916/b5d814bf-e38f-456f-8f9c-cb5a98fb52fa)
+
+This project was created for students in the Full Stack Web Development program at Digital Crafts. For more information, please contact Patrick Frank (pfrank@aiufl.edu). 
+
 # Callback Hell Demonstration
 
 A JavaScript classroom demonstration showing why modern async patterns (Promises, async/await) were developed to replace XMLHttpRequest callback-based code.
