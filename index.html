@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Dashboard - Callback Hell Demo</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quote Dashboard</h1>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text" id="progressText">Ready to fetch quotes...</div>
+            </div>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="topicSelection">Topic:</label>
+                <select id="topicSelection">
+                    <option value="love">Love</option>
+                    <option value="motivational">Motivational</option>
+                    <option value="life">Life</option>
+                    <option value="happiness">Happiness</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="countSelection">Count:</label>
+                <select id="countSelection">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <button id="fetchQuotesBtn">Fetch All Data</button>
+        </div>
+
+        <div class="dashboard">
+            <div class="section" id="quotesSection">
+                <h2>📝 Primary Quotes</h2>
+                <div class="content" id="quotes">
+                    <div class="placeholder">Click "Fetch All Data" to load quotes...</div>
+                </div>
+            </div>
+
+            <div class="section" id="authorSection">
+                <h2>👤 Author Information</h2>
+                <div class="content" id="authorInfo">
+                    <div class="placeholder">Author details will appear here...</div>
+                </div>
+            </div>
+
+            <div class="section" id="relatedSection">
+                <h2>🔗 Related Quotes</h2>
+                <div class="content" id="relatedQuotes">
+                    <div class="placeholder">Related quotes will load here...</div>
+                </div>
+            </div>
+
+            <div class="section" id="randomSection">
+                <h2>🎲 Random Quote</h2>
+                <div class="content" id="randomQuote">
+                    <div class="placeholder">Random quote coming soon...</div>
+                </div>
+            </div>
+
+            <div class="section" id="userSection">
+                <h2>⚙️ User Preferences</h2>
+                <div class="content" id="userPrefs">
+                    <div class="placeholder">Feature coming soon - this would require another API call!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
